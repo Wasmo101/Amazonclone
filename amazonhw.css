@@ -1,0 +1,173 @@
+body{
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.form-box{
+    border: 4px solid #d1bfbf;
+    width: 370px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("backround.jpg")no-repeat;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 2em;
+    
+}
+
+.inputbox{
+    border: 3px solid #d1bfbf;
+    position: relative;
+    margin: 10px 0;
+    width: 300px;
+
+    border-bottom: 2px solid #fff;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translate(-50);
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+    top: 5px;
+}
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #000000;
+
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #000000;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.forget{
+    margin: -15px 0 15px;
+    font-size: .8em;
+    color: #0b5cce;
+    display: flex;
+    justify-content: right;
+
+}
+.forget label input{
+    margin-right: 3px;
+}
+.forget label a{
+    color: #000000;
+    text-decoration: none;
+
+}
+.forget a{
+    margin:-10px 0 20px;
+    text-align: right;
+
+}
+
+
+.forget label:hover{
+    text-decoration: underline;
+
+}
+button{
+    width: 100%;
+    height: 40px;
+    background: #ffa23f;
+    outline: none;
+    cursor: pointer;
+    font-size: .8em;
+    font-weight: 600;
+}
+.register{
+    font-size: .9em;
+    color: #0b5cce;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register p a{
+    text-decoration: none;
+    color: none;
+    font-weight: 600;
+
+}
+
+.register p a:hover{
+    text-decoration: underline;
+
+}
+
+.choose-account{
+    color: #d1bfbf;
+
+}
+h3{
+    text-align: center;
+    font-size: .8em;
+    max-width: 600px;
+    font-family: 40px;
+    position: relative;
+    margin: px auto;    
+    margin-top: 70px;
+}
+h3:before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+h3::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right,)
+
+}
+.reset{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button2{
+    background-color: grey;
+}
